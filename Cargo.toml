@@ -1,0 +1,13 @@
+[package]
+name = "num-consts"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+authors = ["zignis <velociraptorm77@gmail.com>"]
+description = "General-purpose mathematical constants"
+keywords = ["mathematical", "scientific"]
+repository = "https://github.com/zignis/num-consts.git"
+
+[package.metadata.docs.rs]
+rustdoc-args = ["--cfg", "docsrs"]
+all-features = true
